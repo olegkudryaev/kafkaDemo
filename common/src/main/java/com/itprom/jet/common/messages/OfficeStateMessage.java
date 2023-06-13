@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class OfficeStateMessage extends Message{
-    protected OfficeStateMessage() {
+    public OfficeStateMessage() {
         this.source = Source.OFFICE;
         this.type = Type.STATE;
     }

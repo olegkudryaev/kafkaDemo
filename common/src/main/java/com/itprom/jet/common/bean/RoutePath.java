@@ -14,6 +14,12 @@ public class RoutePath {
     private RoutePoint to;
     private double progress;
 
+    public RoutePath(RoutePoint from, RoutePoint to, double progress) {
+        this.from = from;
+        this.to = to;
+        this.progress = progress;
+    }
+
     public void addProgress(double speed) {
         progress += speed;
         if (progress > 100) {

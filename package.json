@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "install": "^0.13.0",
+        "nuxt": "^3.5.3"
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "start": "nuxt start"
+    }
+}
